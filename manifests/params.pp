@@ -20,7 +20,7 @@ class varnish::params {
           $addrepo            = true
           $repoclass          = "varnish::repo::el${::operatingsystemmajrelease}"
           $sysconfig          = '/etc/varnish/varnish.params'
-          $varnish_version    = '41'
+          $varnish_version    = '40'
           $vcl_reload         = '/usr/sbin/varnish_reload_vcl'
         }
         default: {
